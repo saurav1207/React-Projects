@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./styles.css";
+import "./components/style.css";
 
 const images = [
   "https://images.pexels.com/photos/844297/pexels-photo-844297.jpeg?auto=compress&cs=tinysrgb&w=500",
