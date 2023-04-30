@@ -1,7 +1,14 @@
+## Building the Image Carousel
+
+### To build the image carousel project, I used the React JavaScript library. I started by creating a new React project using the npx create-react-app my-app command-line tool.
+
+### This created a new React project with all the necessary files and dependencies to get started.
 
 
-### Our carousel should allow the user to click the backwards or forwards button to go to the previous or next image.
+### I used the useState hook to manage the current image index. The next and prev buttons update the current image index by incrementing or decrementing the index, respectively. If the index goes beyond the bounds of the image array, I used the modulo operator to wrap it back around to the beginning or end of the array.
 
-### The images will be stored in a simple array. We will see how to use state in order to store the current image. Then we will update that state to go to the previous or next image, according to the button the user pressed.
+### Finally, I added some CSS styles to make the image carousel look more visually appealing. I used Flexbox to align the buttons and center the image.
 
-### If the user has gone through all of the images, then it starts at the beginning of the array to allow them to cycle through the images again.
+## Conclusion
+
+### Overall, building the image carousel project was a fun and rewarding experience. I learned a lot about React, state management, and CSS styling. I hope this project can be useful to others who are learning web development with React!
